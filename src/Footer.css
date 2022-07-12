@@ -1,0 +1,38 @@
+/***
+  FOOTER
+ ***/
+footer {
+    margin-top: 0em;
+    /* background-color: aqua; */
+    /* padding: 0 auto; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* padding: 3em; */
+}
+
+
+/***
+  ICONS
+ ***/
+
+footer .icon {
+    color: var(--color-mocha);
+    padding: 6px;
+    margin-right: 3px;
+    font-size: 200% !important;
+}
+
+footer a.icon:focus,
+footer a.icon:hover {
+    color: var(--color-green);
+    transition: all 0.25s ease-in-out;
+}
+
+.icon-bar {
+    margin-right: auto;
+}
+
+#Footer-heart {
+    color: var(--color-pink);
+}
