@@ -15,7 +15,8 @@
  ***/
 
 body {
-  font-family: 'Helvetica Neue', -apple-system, sans-serif;
+  /* font-family: 'Garamond', 'Helvetica Neue', -apple-system, sans-serif; */
+  font-family: "Hoefler Text", "Times New Roman", serif;
   padding: 0;
   margin: 0;
   background-color: var(--color-offwhite);
@@ -57,13 +58,13 @@ footer a:not(.button):not(.icon) {
       left top,
       left bottom,
       from(transparent),
-      color-stop(65%, transparent),
-      color-stop(65%, var(--color-green-hl)),
+      color-stop(60%, transparent),
+      color-stop(60%, var(--color-green-hl)),
       to(var(--color-green-hl)));
   background: linear-gradient(to bottom,
       transparent 0,
-      transparent 65%,
-      var(--color-green-hl) 65%,
+      transparent 60%,
+      var(--color-green-hl) 60%,
       var(--color-green-hl) 100%);
   text-decoration: none;
   transition: color 0.5s ease-in-out;
