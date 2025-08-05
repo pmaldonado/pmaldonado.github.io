@@ -1,0 +1,22 @@
+.link-highlight {
+  padding-left: 2px;
+  padding-right: 2px;
+  color: black;
+  background: linear-gradient(to bottom, transparent 0%, transparent 60%, rgba(20,184,166,0.3) 60%, rgba(20,184,166,0.3) 100%);
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.link-highlight:hover {
+  background-color: #14b8a6;
+  color: #fdf9f1;
+}
+
+.icon-highlight {
+  color: #3C280D;
+  transition: color 0.2s;
+}
+
+.icon-highlight:hover {
+  color: #14b8a6;
+}

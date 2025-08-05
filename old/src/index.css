@@ -1,0 +1,103 @@
+/***
+  VARIABLES
+ ***/
+
+:root {
+  --color-pink: #ea3e5b;
+  --color-mocha: #3C280D;
+  --color-offwhite: #fdf7ee;
+  --color-green: #00a45f;
+  --color-green-hl: rgba(0, 164, 95, 0.3);
+}
+
+/***
+  MAIN STYLES
+ ***/
+
+body {
+  /* font-family: 'Garamond', 'Helvetica Neue', -apple-system, sans-serif; */
+  font-family: "Hoefler Text", "Times New Roman", serif;
+  padding: 0;
+  margin: 0;
+  background-color: var(--color-offwhite);
+  color: var(--color-mocha);
+  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 640px) {
+  body {
+    font-size: 95%;
+  }
+}
+
+p {
+  font-size: 110%;
+  line-height: 150%;
+}
+
+h2 {
+  font-size: 150%;
+  font-weight: 400;
+  line-height: 135%;
+  letter-spacing: -0.02rem;
+}
+
+
+/***
+  LINKS
+ ***/
+
+main a:not(.button):not(.icon),
+footer a:not(.button):not(.icon) {
+  padding-left: 2px;
+  padding-right: 2px;
+  color: black;
+  background: -webkit-gradient(linear,
+      left top,
+      left bottom,
+      from(transparent),
+      color-stop(60%, transparent),
+      color-stop(60%, var(--color-green-hl)),
+      to(var(--color-green-hl)));
+  background: linear-gradient(to bottom,
+      transparent 0,
+      transparent 60%,
+      var(--color-green-hl) 60%,
+      var(--color-green-hl) 100%);
+  text-decoration: none;
+  transition: color 0.5s ease-in-out;
+}
+
+main a:not(.button):not(.icon):focus,
+main a:not(.button):not(.icon):hover,
+footer a:not(.button):not(.icon):focus,
+footer a:not(.button):not(.icon):hover {
+  background: var(--color-green);
+  color: var(--color-offwhite);
+  transition: all 0.25s;
+}
+
+/***
+  CONTAINERS
+ ***/
+
+main {
+  padding-top: 4em;
+}
+
+.wide {
+  max-width: 768px;
+  padding: 1em 3em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 640px) {
+
+  .wide {
+    padding: 0.75em 1.5em;
+  }
+
+}

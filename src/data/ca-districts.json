@@ -1,0 +1,418 @@
+[
+  {
+    "district": 1,
+    "name": "Doug LaMalfa",
+    "party": "R",
+    "tenure": "since 2013",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_1st_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Doug_LaMalfa"
+  },
+  {
+    "district": 2,
+    "name": "Jared Huffman",
+    "party": "D",
+    "tenure": "since 2013",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_2nd_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Jared_Huffman"
+  },
+  {
+    "district": 3,
+    "name": "Kevin Kiley",
+    "party": "R",
+    "tenure": "since 2023",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_3rd_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Kevin_Kiley"
+  },
+  {
+    "district": 4,
+    "name": "Mike Thompson",
+    "party": "D",
+    "tenure": "since 1999",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_4th_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Mike_Thompson_(California_politician)"
+  },
+  {
+    "district": 5,
+    "name": "Tom McClintock",
+    "party": "R",
+    "tenure": "since 2009",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_5th_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Tom_McClintock"
+  },
+  {
+    "district": 6,
+    "name": "Ami Bera",
+    "party": "D",
+    "tenure": "since 2013",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_6th_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Ami_Bera"
+  },
+  {
+    "district": 7,
+    "name": "Doris Matsui",
+    "party": "D",
+    "tenure": "since 2005",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_7th_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Doris_Matsui"
+  },
+  {
+    "district": 8,
+    "name": "John Garamendi",
+    "party": "D",
+    "tenure": "since 2009",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_8th_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/John_Garamendi"
+  },
+  {
+    "district": 9,
+    "name": "Josh Harder",
+    "party": "D",
+    "tenure": "since 2019",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_9th_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Josh_Harder"
+  },
+  {
+    "district": 10,
+    "name": "Mark DeSaulnier",
+    "party": "D",
+    "tenure": "since 2015",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_10th_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Mark_DeSaulnier"
+  },
+  {
+    "district": 11,
+    "name": "Nancy Pelosi",
+    "party": "D",
+    "tenure": "since 1987",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_11th_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Nancy_Pelosi"
+  },
+  {
+    "district": 12,
+    "name": "Lateefah Simon",
+    "party": "D",
+    "tenure": "since 2025",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_12th_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Lateefah_Simon"
+  },
+  {
+    "district": 13,
+    "name": "Adam Gray",
+    "party": "D",
+    "tenure": "since 2025",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_13th_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Adam_Gray_(politician)"
+  },
+  {
+    "district": 14,
+    "name": "Eric Swalwell",
+    "party": "D",
+    "tenure": "since 2013",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_14th_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Eric_Swalwell"
+  },
+  {
+    "district": 15,
+    "name": "Kevin Mullin",
+    "party": "D",
+    "tenure": "since 2023",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_15th_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Kevin_Mullin"
+  },
+  {
+    "district": 16,
+    "name": "Sam Liccardo",
+    "party": "D",
+    "tenure": "since 2025",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_16th_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Sam_Liccardo"
+  },
+  {
+    "district": 17,
+    "name": "Ro Khanna",
+    "party": "D",
+    "tenure": "since 2017",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_17th_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Ro_Khanna"
+  },
+  {
+    "district": 18,
+    "name": "Zoe Lofgren",
+    "party": "D",
+    "tenure": "since 1995",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_18th_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Zoe_Lofgren"
+  },
+  {
+    "district": 19,
+    "name": "Jimmy Panetta",
+    "party": "D",
+    "tenure": "since 2017",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_19th_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Jimmy_Panetta"
+  },
+  {
+    "district": 20,
+    "name": "Vince Fong",
+    "party": "R",
+    "tenure": "since 2024",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_20th_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Vince_Fong"
+  },
+  {
+    "district": 21,
+    "name": "Jim Costa",
+    "party": "D",
+    "tenure": "since 2005",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_21st_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Jim_Costa"
+  },
+  {
+    "district": 22,
+    "name": "David Valadao",
+    "party": "R",
+    "tenure": "since 2021",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_22nd_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/David_Valadao"
+  },
+  {
+    "district": 23,
+    "name": "Jay Obernolte",
+    "party": "R",
+    "tenure": "since 2021",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_23rd_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Jay_Obernolte"
+  },
+  {
+    "district": 24,
+    "name": "Salud Carbajal",
+    "party": "D",
+    "tenure": "since 2017",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_24th_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Salud_Carbajal"
+  },
+  {
+    "district": 25,
+    "name": "Raul Ruiz",
+    "party": "D",
+    "tenure": "since 2013",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_25th_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Raul_Ruiz_(politician)"
+  },
+  {
+    "district": 26,
+    "name": "Julia Brownley",
+    "party": "D",
+    "tenure": "since 2013",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_26th_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Julia_Brownley"
+  },
+  {
+    "district": 27,
+    "name": "George T. Whitesides",
+    "party": "D",
+    "tenure": "since 2025",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_27th_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/George_Whitesides"
+  },
+  {
+    "district": 28,
+    "name": "Judy Chu",
+    "party": "D",
+    "tenure": "since 2009",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_28th_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Judy_Chu"
+  },
+  {
+    "district": 29,
+    "name": "Luz Rivas",
+    "party": "D",
+    "tenure": "since 2025",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_29th_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Luz_Rivas"
+  },
+  {
+    "district": 30,
+    "name": "Laura Friedman",
+    "party": "D",
+    "tenure": "since 2025",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_30th_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Laura_Friedman"
+  },
+  {
+    "district": 31,
+    "name": "Gil Cisneros",
+    "party": "D",
+    "tenure": "since 2025",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_31st_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Gil_Cisneros"
+  },
+  {
+    "district": 32,
+    "name": "Brad Sherman",
+    "party": "D",
+    "tenure": "since 1997",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_32nd_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Brad_Sherman"
+  },
+  {
+    "district": 33,
+    "name": "Pete Aguilar",
+    "party": "D",
+    "tenure": "since 2015",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_33rd_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Pete_Aguilar"
+  },
+  {
+    "district": 34,
+    "name": "Jimmy Gomez",
+    "party": "D",
+    "tenure": "since 2017",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_34th_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Jimmy_Gomez"
+  },
+  {
+    "district": 35,
+    "name": "Norma Torres",
+    "party": "D",
+    "tenure": "since 2015",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_35th_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Norma_Torres"
+  },
+  {
+    "district": 36,
+    "name": "Ted Lieu",
+    "party": "D",
+    "tenure": "since 2015",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_36th_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Ted_Lieu"
+  },
+  {
+    "district": 37,
+    "name": "Sydney Kamlager-Dove",
+    "party": "D",
+    "tenure": "since 2023",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_37th_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Sydney_Kamlager-Dove"
+  },
+  {
+    "district": 38,
+    "name": "Linda Sánchez",
+    "party": "D",
+    "tenure": "since 2003",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_38th_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Linda_S%C3%A1nchez"
+  },
+  {
+    "district": 39,
+    "name": "Mark Takano",
+    "party": "D",
+    "tenure": "since 2013",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_39th_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Mark_Takano"
+  },
+  {
+    "district": 40,
+    "name": "Young Kim",
+    "party": "R",
+    "tenure": "since 2021",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_40th_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Young_Kim"
+  },
+  {
+    "district": 41,
+    "name": "Ken Calvert",
+    "party": "R",
+    "tenure": "since 1993",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_41st_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Ken_Calvert"
+  },
+  {
+    "district": 42,
+    "name": "Robert Garcia",
+    "party": "D",
+    "tenure": "since 2023",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_42nd_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Robert_Garcia_(politician)"
+  },
+  {
+    "district": 43,
+    "name": "Maxine Waters",
+    "party": "D",
+    "tenure": "since 1991",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_43rd_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Maxine_Waters"
+  },
+  {
+    "district": 44,
+    "name": "Nanette Barragán",
+    "party": "D",
+    "tenure": "since 2017",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_44th_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Nanette_Barrag%C3%A1n"
+  },
+  {
+    "district": 45,
+    "name": "Michelle Steel",
+    "party": "R",
+    "tenure": "since 2021",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_45th_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Michelle_Steel"
+  },
+  {
+    "district": 46,
+    "name": "Lou Correa",
+    "party": "D",
+    "tenure": "since 2017",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_46th_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Lou_Correa"
+  },
+  {
+    "district": 47,
+    "name": "Katie Porter",
+    "party": "D",
+    "tenure": "since 2019",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_47th_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Katie_Porter"
+  },
+  {
+    "district": 48,
+    "name": "Darrell Issa",
+    "party": "R",
+    "tenure": "since 2021",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_48th_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Darrell_Issa"
+  },
+  {
+    "district": 49,
+    "name": "Mike Levin",
+    "party": "D",
+    "tenure": "since 2019",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_49th_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Mike_Levin"
+  },
+  {
+    "district": 50,
+    "name": "Scott Peters",
+    "party": "D",
+    "tenure": "since 2013",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_50th_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Scott_Peters_(politician)"
+  },
+  {
+    "district": 51,
+    "name": "Sara Jacobs",
+    "party": "D",
+    "tenure": "since 2021",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_51st_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Sara_Jacobs"
+  },
+  {
+    "district": 52,
+    "name": "Juan Vargas",
+    "party": "D",
+    "tenure": "since 2013",
+    "districtWikipedia": "https://en.wikipedia.org/wiki/California%27s_52nd_congressional_district",
+    "representativeWikipedia": "https://en.wikipedia.org/wiki/Juan_Vargas"
+  }
+]
