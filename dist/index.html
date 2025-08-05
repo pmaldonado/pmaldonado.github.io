@@ -15,7 +15,20 @@
     <meta name="author" content="Peter Maldonado">
     
     <title>Peter Maldonado</title>
-    <script type="module" crossorigin src="/assets/index-DS38Ou9D.js"></script>
+    <script type="text/javascript">
+      // GitHub Pages SPA redirect handling
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+    <script type="module" crossorigin src="/assets/index-GpHItK2H.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-B0twHV8e.css">
   </head>
   <body>
