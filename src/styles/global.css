@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@plugin "@tailwindcss/typography";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -117,4 +118,57 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* Site styles (formerly App.css) */
+.link-highlight {
+  padding-left: 2px;
+  padding-right: 2px;
+  color: black;
+  background: linear-gradient(to bottom, transparent 0%, transparent 60%, rgba(20,184,166,0.3) 60%, rgba(20,184,166,0.3) 100%);
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.link-highlight:hover {
+  background-color: #14b8a6;
+  color: #fdf9f1;
+}
+
+.icon-highlight {
+  color: #3C280D;
+  transition: color 0.2s;
+}
+
+.icon-highlight:hover {
+  color: #14b8a6;
+}
+
+/* Blog post body: match the site's palette and link style */
+.post {
+  --tw-prose-body: #3C280D;
+  --tw-prose-headings: #3C280D;
+  --tw-prose-bold: #3C280D;
+  --tw-prose-quotes: #3C280D;
+  --tw-prose-bullets: #3C280D;
+  --tw-prose-counters: #3C280D;
+  --tw-prose-links: black;
+}
+
+.post a {
+  font-weight: inherit;
+  padding: 0 2px;
+  text-decoration: none;
+  background: linear-gradient(to bottom, transparent 0%, transparent 60%, rgba(20,184,166,0.3) 60%, rgba(20,184,166,0.3) 100%);
+  transition: all 0.2s;
+}
+
+.post code::before,
+.post code::after {
+  content: none;
+}
+
+.post a:hover {
+  background-color: #14b8a6;
+  color: #fdf9f1;
 }

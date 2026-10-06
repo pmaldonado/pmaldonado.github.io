@@ -1,0 +1,26 @@
+---
+import { render } from "astro:content";
+import SiteLayout from "@/layouts/SiteLayout.astro";
+import { formatDate, getPosts } from "@/lib/posts";
+
+export async function getStaticPaths() {
+  const posts = await getPosts();
+  return posts.map((post) => ({ params: { slug: post.id }, props: { post } }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+---
+
+<SiteLayout title={`${post.data.title} · Peter Maldonado`} description={post.data.description} nav>
+  <article class="max-w-3xl mx-auto px-6 sm:px-12 mb-12">
+    <h1 class="text-5xl md:text-6xl font-normal mb-2 tracking-tight">{post.data.title}</h1>
+    <p class="text-lg opacity-75 mb-8">
+      <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date)}</time>
+      {post.data.updated && <> · Updated {formatDate(post.data.updated)}</>}
+    </p>
+    <div class="post prose prose-xl max-w-none">
+      <Content />
+    </div>
+  </article>
+</SiteLayout>

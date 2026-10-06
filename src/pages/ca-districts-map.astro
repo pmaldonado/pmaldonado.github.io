@@ -1,0 +1,12 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import CAHouseMap from "@/components/CAHouseMap";
+---
+
+<BaseLayout
+  title="CA Congressional Districts"
+  description="Interactive map of California's 52 congressional districts and their representatives."
+>
+  <!-- Leaflet touches `window` on import, so render this island in the browser only. -->
+  <CAHouseMap client:only="react" />
+</BaseLayout>

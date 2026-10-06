@@ -20,9 +20,6 @@ const CAHouseMap = () => {
   const leafletMapRef = useRef<L.Map | null>(null)
 
   useEffect(() => {
-    // Update document title
-    document.title = 'CA Congressional Districts'
-    
     if (!mapRef.current || leafletMapRef.current) return
 
     // Initialize the map

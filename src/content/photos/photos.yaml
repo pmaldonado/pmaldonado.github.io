@@ -1,0 +1,10 @@
+# Photos shown on /photos, in this order (top of the list shows first).
+# Add photos with `npm run photos:add -- path/to/photo.jpg`, which resizes them, strips
+# EXIF/GPS data, saves them in this folder, and appends an entry here for you to fill in.
+#
+# - id: golden-gate-sunset        # unique name, also the file name
+#   src: ./golden-gate-sunset.jpg # path relative to this file
+#   alt: Fog rolling under the Golden Gate Bridge at sunset   # required, describes the image
+#   caption: Crissy Field         # optional, shown under the photo
+#   date: 2026-09-14              # optional
+[]
