@@ -1,0 +1,52 @@
+---
+import { Image } from "astro:assets";
+import SiteLayout from "@/layouts/SiteLayout.astro";
+import headshot from "@/assets/headshot.jpeg";
+---
+
+<SiteLayout>
+  <div class="max-w-3xl mx-auto px-6 sm:px-12 mt-12">
+    <Image
+      src={headshot}
+      alt="Headshot of Peter"
+      width={480}
+      widths={[240, 480]}
+      sizes="240px"
+      loading="eager"
+      class="rounded-full w-60 float-right ml-4 mb-6 -mt-12 md:block hidden"
+    />
+    <Image
+      src={headshot}
+      alt="Headshot of Peter"
+      width={400}
+      widths={[160, 200, 400]}
+      sizes="(min-width: 640px) 200px, 160px"
+      loading="eager"
+      class="rounded-full w-40 sm:w-50 mx-auto mb-6 block md:hidden"
+    />
+
+    <h1 class="text-5xl md:text-6xl font-normal mb-2 tracking-tight">Peter Maldonado</h1>
+
+    <h2 class="text-2xl font-normal leading-snug tracking-tight mb-4">
+      I like AI, scientific progress, and effective governance.
+    </h2>
+
+    <h2 class="text-2xl font-normal leading-snug tracking-tight mb-4">
+      I'm a machine learning engineer at <a href="https://www.ello.com/" class="link-highlight">Ello</a>,
+      where we're building an AI tutor for every child. Previously, I was a research fellow
+      in the <a href="https://reglab.stanford.edu/" class="link-highlight">RegLab</a> at Stanford Law School
+      and worked across startups and big tech.
+    </h2>
+
+    <h2 class="text-2xl font-normal leading-snug tracking-tight mb-4">
+      In my spare time, I take photos of the sunset, ride trains, and enjoy long walks around SF.
+    </h2>
+
+    <h2 class="text-2xl font-normal leading-snug tracking-tight mb-8">
+      If any of that sounds interesting, reach out via <a
+        href="mailto:foxes_phage_4x@icloud.com"
+        class="link-highlight">email</a
+      > or <a href="https://twitter.com/_malptr" class="link-highlight">X</a>.
+    </h2>
+  </div>
+</SiteLayout>

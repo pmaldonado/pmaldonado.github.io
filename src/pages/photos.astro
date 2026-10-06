@@ -1,0 +1,52 @@
+---
+import { getCollection } from "astro:content";
+import { getImage, Picture } from "astro:assets";
+import SiteLayout from "@/layouts/SiteLayout.astro";
+import { formatDate } from "@/lib/posts";
+
+const entries = (await getCollection("photos")).sort((a, b) => a.data.order - b.data.order);
+// Each thumbnail links to a large WebP copy rather than the original file.
+const photos = await Promise.all(
+  entries.map(async (photo) => ({
+    ...photo.data,
+    id: photo.id,
+    full: await getImage({ src: photo.data.src, width: Math.min(photo.data.src.width, 2400), format: "webp" }),
+  })),
+);
+---
+
+<SiteLayout title="Photos · Peter Maldonado" description="Photos by Peter Maldonado." nav>
+  <div class="max-w-3xl mx-auto px-6 sm:px-12 mb-12">
+    <h1 class="text-5xl md:text-6xl font-normal mb-8 tracking-tight">Photos</h1>
+    {
+      photos.length === 0 ? (
+        <p class="text-2xl leading-snug">Coming soon.</p>
+      ) : (
+        <div class="columns-1 sm:columns-2 gap-4">
+          {photos.map((photo, i) => (
+            <figure class="mb-4 break-inside-avoid">
+              <a href={photo.full.src}>
+                <Picture
+                  src={photo.src}
+                  alt={photo.alt}
+                  formats={["avif", "webp"]}
+                  widths={[400, 800, 1200]}
+                  sizes="(min-width: 768px) 320px, (min-width: 640px) 45vw, 100vw"
+                  loading={i < 3 ? "eager" : "lazy"}
+                  class="w-full h-auto rounded-sm shadow-[3px_3px_0_rgba(0,0,0,0.2)]"
+                />
+              </a>
+              {(photo.caption || photo.date) && (
+                <figcaption class="mt-2 text-base opacity-75">
+                  {photo.caption}
+                  {photo.caption && photo.date && " · "}
+                  {photo.date && formatDate(photo.date)}
+                </figcaption>
+              )}
+            </figure>
+          ))}
+        </div>
+      )
+    }
+  </div>
+</SiteLayout>
