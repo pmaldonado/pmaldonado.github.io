@@ -33,14 +33,14 @@ function App() {
           </h2>
           
           <h2 className="text-2xl font-normal leading-snug tracking-tight mb-4">
-            I'm a machine learning engineer at{' '}
+            I'm Head of AI Engineering at{' '}
             <a 
               href="https://www.ello.com/" 
               className="link-highlight"
             >
               Ello
             </a>
-            , where we're building an AI tutor for every child.
+            , where we're building an AI teacher for every child.
             Previously, I was a research fellow in the{' '}
             <a 
               href="https://reglab.stanford.edu/" 
